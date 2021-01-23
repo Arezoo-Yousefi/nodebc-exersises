@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create User</title>
+    </head>
+    <body>
+        <h1>Create User</h1>
+        <hr/>
+        <form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded">
+            <fieldset><legend> user form </legend>
+              <label>username:</label>
+              <input type="text" name="username" placeholder="username" size="30" maxlength="12"/>
+               <p><label>Password:</label>
+                <input type="password" name="password" placeholder=" password" size="30" maxlength="8"/>
+                <br/><br/>
+                <label>your Birthday: </label><input type="date" name="birthday"/> <br/><br/>
+                <label> email:</label><input type="email" name="email" placeholder="enter your email"/>
+                <p><label> your favourite superhero :</label></p>
+                <p>
+                  <label>superman</label><input type="radio" name="superheros" value="superman">
+                  <label>Batman</label><input type="radio" name="superheros" value="Batman"> 
+                  <label>Wonder Woman</label><input type="radio" name="superheros" value="Wonder Woman" checked="checked">
+                  <label>Flash</label><input type="radio" name="superheros" value="Flash"> 
+                  <label>>Hulk</label<input type="radio" name="superheros" value="Hulk">
+                  <label>Thor</label><input type="radio" name="superheros" value="Thor">
+                </p>
+                <p>Select your favourite video game:</p>
+                    <p>
+                       <label>Fifa </label><input type="checkbox" name="videogames" checked value="Fifa">
+                       <label>NHL</label><input type="checkbox" name="videogames" value="NHL">
+                       <label>evil</label><input type="checkbox" name="videogames" value="Residen evil">
+                       <label>Uncharted</label><input type="checkbox" name="videogames" value="Uncharted" checked>
+                    </p>
+                    <input type="hidden" name="userid" value="2300"/>
+                    <br/>
+                        <label>Website:</label><input type="url" name="site" placeholder="atwebpage.com" /><br/><br/>
+                        <input type="image" name=" login" src="./img/34647325.png" width="150" height="40">
+                    
+                    <br/>
+                </fieldset>
+            </form><br/>
+            <form>
+                <label> ask me: </label><input type="search" name="q" accept="www.google.com"/>
+            </form>
+
+    </body>
+</html>

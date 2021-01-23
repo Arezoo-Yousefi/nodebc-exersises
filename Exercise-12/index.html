@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create User</title>
+    </head>
+    <body>
+        <h1>Create User</h1>
+        <hr/>
+        <form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded">
+            <fieldset><legend> user form </legend>
+               username: <input type="text" name="username" placeholder="username" size="30" maxlength="12"/>
+               <p>Password: <input type="password" name="password" placeholder=" password" size="30" maxlength="8"/>
+                <p>Select your favourite superhero :</p>
+                <p>
+                    superman<input type="radio" name="superheros" value="superman">
+                    Batman<input type="radio" name="superheros" value="Batman"> 
+                    Wonder Woman<input type="radio" name="superheros" value="Wonder Woman" checked="checked">
+                    Flash<input type="radio" name="superheros" value="Flash"> 
+                    Hulk<input type="radio" name="superheros" value="Hulk">
+                    Thor<input type="radio" name="superheros" value="Thor">
+                </p>
+                <p>Select your favourite video game:</p>
+                    <p>
+                        Fifa <input type="checkbox" name="videogames" checked value="Fifa">
+                        NHL <input type="checkbox" name="videogames" value="NHL">
+                        Residen evil <input type="checkbox" name="videogames" value="Residen evil">
+                        Uncharted <input type="checkbox" name="videogames" value="Uncharted" checked>
+                    </p>
+                    <input type="hidden" name="userid" value="2300"/>
+                    <p>
+                        <input type="image" name=" login" src="./img/34647325.png" width="150" height="40">
+                    </p>
+                </fieldset>
+
+        </form>
+
+    </body>
+</html>
